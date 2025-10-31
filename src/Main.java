@@ -5,8 +5,16 @@ class Main {
 //        pessoa.Show();
 
 
-//        Calculadora CalcResu = new Calculadora(19, 10);
-//        CalcResu.Resultado();
+        Calculadora CalcResu = new Calculadora(19, 10, 21, 5);
+        CalcResu.Resultado();
+        CalcResu.ResultadoDobro();
+        CalcResu.ResuIP();
+        CalcResu.MNResu();
+        CalcResu.menorEntreTres();
+        CalcResu.ResultadoT();
+        CalcResu.ResuNP();
+        CalcResu.RaizQResu();
+        CalcResu.TextPot();
 
 
 //        DobroCalc DobroResu = new DobroCalc(19);
