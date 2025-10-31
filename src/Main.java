@@ -34,7 +34,7 @@ class Main {
 //        FatResu.ResultadoF();
 
 
-//        Idade ConfId = new Idade("Mario");
+//        Pessoa ConfId = new Pessoa("Edu");
 //        ConfId.Idade (19);
 //        ConfId.ResuId();
 
@@ -42,12 +42,13 @@ class Main {
 //        Temperatura TempC = new Temperatura(25);
 //        TempC.TempResu();
 
+
 //        Contador ContR = new Contador(80);
 //        ContR.ContResu();
 
 
-        NPrimo PrimResu = new NPrimo(601);
-        PrimResu.ResuNP();
+//        NPrimo PrimResu = new NPrimo(601);
+//        PrimResu.ResuNP();
 
 
 //        RaizQ RaizResu = new RaizQ(9);
@@ -56,5 +57,23 @@ class Main {
 
 //        Potencia PoTResu = new Potencia(2, 9);
 //        PoTResu.TextPot();
+
+
+//        Sequencia SeqResu = new Sequencia(9);
+//        SeqResu.imprimirAteN();
+
+
+//        Sequencia somResu = new Sequencia(19);
+//        somResu.somarAteN();
+
+
+//        Pessoa IMC = new Pessoa ("Eduardo");
+//        IMC.Peso(75);
+//        IMC.Altura(1.75);
+//        IMC.ResultadoIMC();
+//
+//
+//        Comparador2 Comp2 = new Comparador2(19, 10, 1);
+//        Comp2.menorEntreTres();
     }
 }
