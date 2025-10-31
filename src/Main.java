@@ -1,15 +1,60 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+//        Pessoa pessoa = new Pessoa ("Carlos");
+//        pessoa.Show();
+
+
+//        Calculadora CalcResu = new Calculadora(19, 10);
+//        CalcResu.Resultado();
+
+
+//        DobroCalc DobroResu = new DobroCalc(19);
+//        DobroResu.Resultado();
+
+
+//        ParOuImpar IPResu = new ParOuImpar(99);
+//        IPResu.ResuIP();
+
+
+//        Aluno mediaA = new Aluno("Maria");
+//        mediaA.NotasA(7.5, 9, 8.5);
+//        mediaA.ResuMediaA();
+
+
+//        Comparador CompResu = new Comparador(19, 10);
+//        CompResu.Resultado();
+
+
+//        Tabuada TabResu = new Tabuada(5);
+//        TabResu.ResultadoT();
+
+
+//        Fatorial FatResu = new Fatorial(7);
+//        FatResu.ResultadoF();
+
+
+//        Idade ConfId = new Idade("Mario");
+//        ConfId.Idade (19);
+//        ConfId.ResuId();
+
+
+//        Temperatura TempC = new Temperatura(25);
+//        TempC.TempResu();
+
+//        Contador ContR = new Contador(80);
+//        ContR.ContResu();
+
+
+        NPrimo PrimResu = new NPrimo(601);
+        PrimResu.ResuNP();
+
+
+//        RaizQ RaizResu = new RaizQ(9);
+//        RaizResu.RaizQResu();
+
+
+//        Potencia PoTResu = new Potencia(2, 9);
+//        PoTResu.TextPot();
     }
 }
